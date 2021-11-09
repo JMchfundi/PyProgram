@@ -124,18 +124,15 @@ class MargheritaPizza(Pizza):
     def __init__(self):
         Pizza.__init__(self, "1", "Pizza Margarita", "tomato sauce, cheese", 7)
 
-
 class MushroomPizza(Pizza):
     def __init__(self):
         Pizza.__init__(self, "2", "Pizza Funghi", "tomato sauce," +
                        "cheese, mushrooms", 9)
 
-
 class FourCheesePizza(Pizza):
     def __init__(self):
         Pizza.__init__(self, "3", "Pizza Quattro Formaggi", "emmental," +
                        "mozzarella, gorgonzola, parmigiano", 12)
-
 
 class HamMushroomPizza(Pizza):
     def __init__(self):
